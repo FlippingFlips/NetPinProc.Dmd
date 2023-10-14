@@ -1,15 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
 		<Description>Frames and layers for working with a P-ROC Dot Matrix Display (Dmd)</Description>
+		<Authors>Adam Preble, Jimmy Lipham, David Horsefield</Authors>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<VersionSuffix>1.0.1</VersionSuffix>
+		<PackageVersion>$(VersionSuffix)</PackageVersion>
+		<AssemblyVersion>$(VersionSuffix)</AssemblyVersion>
+		<FileVersion>$(VersionSuffix)</FileVersion>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<IncludeSource>True</IncludeSource>
-		<PackageIcon>pinball.png</PackageIcon>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<IncludeSource>True</IncludeSource>
+		<PackageIcon>pinball.png</PackageIcon>		
+		<PackageOutputPath>.nuget</PackageOutputPath>
 	</PropertyGroup>
 
 	<ItemGroup>
