@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Description>Frames and layers for working with a P-ROC Dot Matrix Display (Dmd)</Description>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<IncludeSource>True</IncludeSource>
+		<PackageIcon>pinball.png</PackageIcon>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="../pinball.png" Pack="true" PackagePath="\" />
+		<None Include="../README.md" Pack="true" PackagePath="\" />
+		<None Include="../LICENSE.md" Pack="true" PackagePath="\" />
+		<None Include="../.github/workflows/netpinproc.dmd.release-nuget.yml" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="NetPinProc.Domain" Version="1.0.1" />
+	</ItemGroup>
+
+</Project>
