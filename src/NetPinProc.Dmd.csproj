@@ -6,7 +6,7 @@
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
 		<TargetFramework>netstandard2.0</TargetFramework>
-		<VersionSuffix>1.0.1</VersionSuffix>
+		<VersionSuffix>1.0.5</VersionSuffix>
 		<PackageVersion>$(VersionSuffix)</PackageVersion>
 		<AssemblyVersion>$(VersionSuffix)</AssemblyVersion>
 		<FileVersion>$(VersionSuffix)</FileVersion>
@@ -30,7 +30,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="NetPinProc.Domain" Version="1.0.1" />
+	  <PackageReference Include="NetPinProc.Domain" Version="1.0.3" />
 	</ItemGroup>
 
 </Project>
